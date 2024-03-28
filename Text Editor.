@@ -130,7 +130,12 @@ public class TextEditor extends JFrame implements ActionListener {
             frame.setVisible(false);
         }
     }
-
+//Create a main class.
+public class MAINCLASS_TEXTEDITOR {
+    public static void main(String args[]){
+        TextEditor textEditor=new TextEditor();
+    }
+}
 
 
     }
